@@ -1,0 +1,9 @@
+@font-face {
+    font-family:'minhafonte';
+    src:url("./fonte/STIXTwoText-Italic-VariableFont_wght.ttf");
+}
+
+div 
+{
+    font-family:minhafonte;
+}
