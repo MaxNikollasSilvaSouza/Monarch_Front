@@ -8,15 +8,9 @@ import { SectionComponent } from './section/section.component';
 const routes: Routes = [{
 
   path: '', component: SectionComponent
-  
-  
-
-  
 },
 {
-  path:'ajuda',component:AjudaComponent,
-  
-  
+  path:'/ajuda',component:AjudaComponent  
 }
 
 
