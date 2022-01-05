@@ -19,7 +19,7 @@ export class SectionComponent{
   });
 
   items:any = []
-  showinput = false// true
+  showinput =  true
 
   constructor(
     private productService: ProductService,
@@ -37,7 +37,7 @@ export class SectionComponent{
 
       this.items = data.lista
       
-     // this.showinput = false
+      this.showinput = false
       
     })
     
