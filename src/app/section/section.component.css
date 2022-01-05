@@ -20,7 +20,10 @@
   float: center;
     margin-right: 5%;
 }
-
+.ml_cabecalho
+{
+  margin-left: 3%;
+}
 .cabecalho
 {
   background-image: radial-gradient(circle at 50% 50%, #deb887 0, #deb887 50%, #deb887 100%);

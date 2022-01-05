@@ -11,30 +11,35 @@
     <div class="ml">
       <fieldset class="borda_centro">
         <h1>MONARCH</h1>
+        
       </fieldset>
     </div>
-
+    
+    
 
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
     </div>
-   
-    <a class="navbar-brand" href="/ajuda">Ajuda</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="ficar_direita">
+    
+    
+    <a class="navbar-brand ml_cabecalho" href="/ajuda">Ajuda</a> <a class="navbar-brand ml_cabecalho"> (Aguarde um pouco ao clicar no botão)</a>
+    
+  
+    <div class="ficar_direita ml_cabecalho">
       <form class="d-flex" [formGroup]="formulario" (ngSubmit)="onSubmit(); ">
         <input class="form-control me-2" placeholder="Search" aria-label="Search" type="text" id="inserir_codigo"
           name="inserir_codigo" formControlName="codigo" placeholder="Insira o codigo aqui">
+          
         <button class="btn btn-outline-success" type="submit">Search</button>
+        
       </form>
     </div>
 
+    
   </div>
-
+  
+  
 </nav>
 
 
