@@ -7,16 +7,13 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light cabecalho">
-  <div class="container-fluid" routerLinkActive="active">
+  <div class="container-fluid">
     <div class="ml">
       <fieldset class="borda_centro">
         <h1>MONARCH</h1>
 
       </fieldset>
     </div>
-
-
-
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -56,21 +53,7 @@
       <div class="orientacao_pl container-fluid p-0 m-0">
         <ul *ngFor="let item of items">
 
-
-
-          <!--CARD-->
-          <!--
-          <div class="card m-1 cartao" style="width: 18rem;">
-            <img src="{{item.ID_IMAGEM}}" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">{{item.NOME}}</h5>
-              <div class="d-flex justify-content-center">
-                <div class="btn btn-primary w-100">{{item.VALOR}}</div>
-              </div>
-            </div>
-          </div>
-          -->
-          <!--/CARD-->
+      
           <div class="card m-1 mt-2 cartao" style="width: 18rem;">
             <a href="{{item.ID_IMAGEM}}" target="_blank"><img src="{{item.ID_IMAGEM}}" class="card-img-top"
                 alt="..."></a>
@@ -96,29 +79,8 @@
 </div>
 
 <div *ngIf="showinput">
-  <div class="container-fluid cabecalho">
-    <div class="sombra" style="text-align: left;">
-      <fieldset class="borda_centro">
-        <h1></h1>
-      </fieldset>
-    </div>
-    <div class="row">
-      <div class="col">
-
-      </div>
-      <div class="col" style="margin-top: 3%;">
-        <p class="navbar-brand">Tem ajuda não irmão. É isso!</p>
-        <br>
-        <p class="navbar-brand"> Atenciosamente,</p>
-        <br>
-        <h1 class="sombra">MONARCH</h1>
-      </div>
-      <div class="col">
-
-      </div>
-    </div>
-  </div>
-  <p class="navbar-brand">Brincadeira, só coloca o código que foi passado para você no campo de busca e clique no botão
+  
+  <p class="navbar-brand">É só coloca o código que foi passado para você no campo de busca e clique no botão
     ao lado direito escrito "Search".</p>
   <p>Caso o código inserido não funcione mesmo após a breve espera, é porque estamos atualizando o conteúdo ou mudamos o
     códigos (acontece de tempos em tempos).</p>
